@@ -4,7 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/native-stack';
 import registerNNPushToken from 'native-notify';
 
-import Home from './src/screens/Home';
+import Home from '.src/screens/Home';
 import ChosenTask from './src/screens/ChosenTask';
 
 const stack = createStackNavigator();
